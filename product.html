@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Браслет регализ ручной работы</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body class="page">
+    <div class="page__container">
+      <header class="product-header">
+        <a href="#" class="product-header__logo-link">
+          <img
+            src="./images/Serafima_logo.png"
+            class="product-header__logo"
+            alt="лого Серафима студио"
+          />
+        </a>
+        <nav class="product-header__nav">
+          <ul class="product-header__nav-list">
+            <li class="product-header__nav-item">
+              <a
+                href="./index.html"
+                class="product-header__nav-link"
+                target="_blank"
+                >На главную</a
+              >
+            </li>
+            <li class="product-header__nav-item">
+              <a href="#" class="product-header__nav-link" target="_blank"
+                >Обо мне</a
+              >
+            </li>
+            <li class="product-header__nav-item">
+              <a href="#" class="product-header__nav-link" target="_blank"
+                >В каталог</a
+              >
+            </li>
+            <li class="product-header__nav-item">
+              <a href="#" class="product-header__nav-link" target="_blank"
+                >В корзину</a
+              >
+            </li>
+          </ul>
+          <div class="product-header__burger">
+            <!-- <span class="one"></span>
+            <span class="two"></span>
+            <span class="three"></span> -->
+
+            <span class="product-header__burger-line one"></span>
+            <span class="product-header__burger-line two"></span>
+            <span class="product-header__burger-line three"></span>
+          </div>
+        </nav>
+      </header>
+      <main class="content">
+        <div class="single-product">
+          <div class="slider-wrapper">
+            <!-- Основной слайдер -->
+            <div class="swiper mySwiper2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    src="./images/regalis-denim.jpg"
+                    class="swiper-image"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="./images/regalis-obereg.jpg"
+                    class="swiper-image"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="./images/regalis_capuchino.jpg"
+                    class="swiper-image"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="./images/regalis-pero.JPG"
+                    class="swiper-image"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="./images/regalis-fucsia.JPG"
+                    class="swiper-image"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="./images/bracelet-spring.JPG"
+                    class="swiper-image"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+            <!--Слайдер с иконками  -->
+            <div thumbsSlider="" class="swiper mySwiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img
+                    src="./images/regalis-denim.jpg"
+                    class="thumbs-swiper-image"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="./images/regalis-obereg.jpg"
+                    class="thumbs-swiper-image"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="./images/regalis_capuchino.jpg"
+                    class="thumbs-swiper-image"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="./images/regalis-pero.JPG"
+                    class="thumbs-swiper-image"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="./images/regalis-fucsia.JPG"
+                    class="thumbs-swiper-image"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="./images/bracelet-spring.JPG"
+                    class="thumbs-swiper-image"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="single-product__info">
+            <h1 class="single-product__title">Браслет регализ Сочная фуксия</h1>
+
+            <span class="single-product__price"> 3 500 руб.</span>
+            <div class="single-product__labels">
+              <span
+                class="single-product__label single-product__label_description single-product__label_visible"
+                >Описание</span
+              >
+              <span class="single-product__label single-product__label_details"
+                >Характеристики</span
+              >
+            </div>
+
+            <p class="single-product__description">
+              Ярко? Броско? Да! Этот браслет - для неординарных личностей,
+              которые не боятся проявить себя. Добавь красок в рутину
+              повседневности!
+            </p>
+            <button type="submit" class="shop-button shop-button_size_small">
+              в корзину
+            </button>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <p class="footer__copyright">&copy Серафима студио, 2024</p>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script>
+      const swiper = new Swiper(".mySwiper", {
+        loop: true,
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesProgress: true,
+      });
+      const swiper2 = new Swiper(".mySwiper2", {
+        loop: true,
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+          swiper: swiper,
+        },
+      });
+    </script>
+
+    <!-- <script type="module" src="./index.js"></script> -->
+  </body>
+</html>
